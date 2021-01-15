@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 29.237 s <<< FAILURE! - in TestSuite
+checkContentType(com.employeeapi.testCases.TC001_Get_All_Employees)  Time elapsed: 0.044 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType(TC001_Get_All_Employees.java:103)
+
+checkserverType(com.employeeapi.testCases.TC001_Get_All_Employees)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkserverType(TC001_Get_All_Employees.java:113)
+
+checkContentType(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentType(TC002_Get_Single_Employee_Record.java:79)
+
+checkResposeBody(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkResposeBody(TC002_Get_Single_Employee_Record.java:49)
+
+checkserverType(com.employeeapi.testCases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkserverType(TC002_Get_Single_Employee_Record.java:86)
+
+checkContentType(com.employeeapi.testCases.TC003_Post_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:95)
+
+checkcontentEncoding(com.employeeapi.testCases.TC003_Post_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkcontentEncoding(TC003_Post_Employee_Record.java:109)
+
+checkserverType(com.employeeapi.testCases.TC003_Post_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkserverType(TC003_Post_Employee_Record.java:102)
+
+checkContentType(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:95)
+
+checkcontentEncoding(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkcontentEncoding(TC004_Put_Employee_Record.java:109)
+
+checkserverType(com.employeeapi.testCases.TC004_Put_Employee_Record)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.checkserverType(TC004_Put_Employee_Record.java:102)
+
+checkContentType(com.employeeapi.testCases.TC005_Delete_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkContentType(TC005_Delete_Employee_Record.java:82)
+
+checkResposeBody(com.employeeapi.testCases.TC005_Delete_Employee_Record)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkResposeBody(TC005_Delete_Employee_Record.java:59)
+
+checkcontentEncoding(com.employeeapi.testCases.TC005_Delete_Employee_Record)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkcontentEncoding(TC005_Delete_Employee_Record.java:96)
+
+checkserverType(com.employeeapi.testCases.TC005_Delete_Employee_Record)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkserverType(TC005_Delete_Employee_Record.java:89)
+
