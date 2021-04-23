@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [EmployeesRestAPISuite]">
-  <listeners>
-    <listener class-name="com.employeeapi.utilities.Listeners"/>
-  </listeners>
-  <test thread-count="5" name="EmployeesRestAPITest(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
+      <class name="basicXmlValidation.BasicXMLValidators">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="getEmployeeData"/>
-          <include name="checkResposeBody"/>
+          <include name="testUsingXPath1"/>
         </methods>
-      </class> <!-- com.employeeapi.testCases.TC002_Get_Single_Employee_Record -->
-      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
-        <methods>
-          <include name="setup"/>
-          <include name="checkResposeBody"/>
-          <include name="tearDown"/>
-          <include name="createEmployee"/>
-        </methods>
-      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+      </class> <!-- basicXmlValidation.BasicXMLValidators -->
     </classes>
-  </test> <!-- EmployeesRestAPITest(failed) -->
-</suite> <!-- Failed suite [EmployeesRestAPISuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
