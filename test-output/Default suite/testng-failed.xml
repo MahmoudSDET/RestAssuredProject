@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicXmlValidation.BasicXMLValidators">
+      <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
         <methods>
-          <include name="testUsingXPath1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="getEmployeeData"/>
+          <include name="checkResposeBody"/>
         </methods>
-      </class> <!-- basicXmlValidation.BasicXMLValidators -->
+      </class> <!-- com.employeeapi.testCases.TC002_Get_Single_Employee_Record -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

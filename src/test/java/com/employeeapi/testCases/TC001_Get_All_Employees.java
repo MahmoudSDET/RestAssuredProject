@@ -49,6 +49,7 @@ public class TC001_Get_All_Employees extends TestBase{
 		
 		String responseBody = response.getBody().asString();
 		logger.info("Response Body==>"+responseBody);
+		
 		Assert.assertTrue(responseBody!=null);
 		
 	}

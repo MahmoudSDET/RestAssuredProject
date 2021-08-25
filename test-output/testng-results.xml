@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-23T09:06:43Z" name="Default suite" finished-at="2021-04-23T09:06:51Z" duration-ms="8185">
+  <suite started-at="2021-08-25T14:04:01Z" name="Default suite" finished-at="2021-08-25T14:04:03Z" duration-ms="2431">
     <groups>
     </groups>
-    <test started-at="2021-04-23T09:06:43Z" name="Default test" finished-at="2021-04-23T09:06:51Z" duration-ms="8185">
-      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@934b6cb]" started-at="2021-04-23T09:06:43Z" name="setup" finished-at="2021-04-23T09:06:43Z" duration-ms="212" status="PASS">
+    <test started-at="2021-08-25T14:04:01Z" name="Default test" finished-at="2021-08-25T14:04:03Z" duration-ms="2431">
+      <class name="postmanServices.VotesTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:postmanServices.VotesTests@75d3a5e0]" started-at="2021-08-25T14:04:01Z" name="setup" finished-at="2021-08-25T14:04:01Z" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="createEmployee()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@934b6cb]" started-at="2021-04-23T09:06:43Z" name="createEmployee" finished-at="2021-04-23T09:06:51Z" duration-ms="7885" status="PASS">
+        <test-method is-config="true" signature="getAllEmployees()[pri:0, instance:postmanServices.VotesTests@75d3a5e0]" started-at="2021-08-25T14:04:01Z" name="getAllEmployees" finished-at="2021-08-25T14:04:03Z" duration-ms="2304" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createEmployee -->
-        <test-method signature="checkResposeBody()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@934b6cb]" started-at="2021-04-23T09:06:51Z" name="checkResposeBody" finished-at="2021-04-23T09:06:51Z" duration-ms="41" status="PASS">
+        </test-method> <!-- getAllEmployees -->
+        <test-method signature="checkResposeBody()[pri:0, instance:postmanServices.VotesTests@75d3a5e0]" started-at="2021-08-25T14:04:03Z" name="checkResposeBody" finished-at="2021-08-25T14:04:03Z" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResposeBody -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@934b6cb]" started-at="2021-04-23T09:06:51Z" name="tearDown" finished-at="2021-04-23T09:06:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+      </class> <!-- postmanServices.VotesTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
